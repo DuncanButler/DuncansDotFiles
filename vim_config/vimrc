@@ -1,5 +1,6 @@
-# configuration for vim
-# ~/.vimrc
+" vim confiuration
+" ~/.vimrc
 
-# show line numbers
+" set line numbers
 set number
+
