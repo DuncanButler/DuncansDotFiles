@@ -4,3 +4,5 @@ source /home/vagrant/.rvm/scripts/rvm
 
 [ -z "$TMUX" ] && export TERM=xterm=256color
 
+export EDITOR=vim
+
