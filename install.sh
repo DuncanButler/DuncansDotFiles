@@ -15,6 +15,15 @@ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-bu
 
 # move vim configuration
 cp vim_config/vimrc ~/.vimrc
+
+# install vim bundle
+git clone https://github.com/benmills/vim-bundle.git ~/vimbundle
+echo 'export PATH="$HOME/vimbundle:$PATH"' >> ~/.bash_profile
+mkdir ~/.vim
+mkdir ~/.vim/bundle
+
+
+
 cp gem_config/gemrc ~/.gemrc
 cp tmux_config/tmux.conf ~/.tmux.conf
 
